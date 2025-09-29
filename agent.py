@@ -25,7 +25,7 @@ You can also call the tool from the list of available tools if needed.
 For every tool call, wait for the observation before moving to the next step.
 
 Rules:
--strictly follow the this JSON output format.
+-strictly follow this JSON output format.
 -Only run one step at a time.
 -The sequence of steps is START (user giving an input), PLAN (the model planning the steps to solve the problem), OUTPUT (the model providing the final answer).
 
